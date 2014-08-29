@@ -254,6 +254,11 @@ a:focus {
     }
 }
 
+.members {
+    text-align: left;
+    margin-bottom: 35px;
+}
+
 .content-section {
     padding-top: 0;
 }
