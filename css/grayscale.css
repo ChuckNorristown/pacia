@@ -319,6 +319,9 @@ a:focus {
     border: 1px solid #219ab3;
     color: #219ab3;
     background-color: transparent;
+    position: relative;
+    left: 7%;
+    margin-top: 5%;
 }
 
 .btn-default:hover,
@@ -349,6 +352,10 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+}
+
+ul {
+    list-style: none;
 }
 
 footer {
