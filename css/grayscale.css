@@ -365,6 +365,7 @@ ul {
 }
 .member-name {
     color: #219ab3;
+    padding: 0;
 }
 
 /*.member-title {
