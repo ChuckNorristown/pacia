@@ -363,6 +363,9 @@ ul {
     float: left;
     width: 25%;
 }
+.member-name {
+    color: #219ab3;
+}
 
 /*.member-title {
     position: relative;
