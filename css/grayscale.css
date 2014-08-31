@@ -358,6 +358,13 @@ ul {
     list-style: none;
 }
 
+li {
+    margin-bottom: 20px;
+    max-height: 17px;
+    line-height: 13px;
+    text-align: left;
+}
+
 .member-name, .member-title {
     position: relative;
     float: left;
