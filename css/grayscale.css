@@ -362,11 +362,10 @@ ul {
     list-style: none;
 }
 
-li {
-    margin-bottom: 20px;
-    max-height: 17px;
-    line-height: 13px;
+.name li {
     text-align: left;
+    border-bottom: 1px solid #FFCC6F;
+    padding: 20px 0;
 }
 
 footer {
