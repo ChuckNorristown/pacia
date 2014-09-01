@@ -306,6 +306,12 @@ a:focus {
     }
 }
 
+.meeting-info {
+    font-size: 20px;
+    line-height: 2;
+    padding: 0;
+}
+
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
