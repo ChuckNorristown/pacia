@@ -265,6 +265,12 @@ a:focus {
 .members {
     margin-bottom: 35px;
     text-align: left;
+    vertical-align: center;
+}
+
+.name {
+    max-height: 500px;
+    overflow-x: scroll;
 }
 
 .content-section {
@@ -362,39 +368,10 @@ ul {
     list-style: none;
 }
 
-li {
-    margin-bottom: 20px;
-    max-height: 17px;
-    line-height: 13px;
+.name li {
     text-align: left;
-}
-
-.member-name, .member-title {
-    position: relative;
-    float: left;
-    width: 25%;
-}
-.member-name {
-    color: #219ab3;
-    padding: 0;
-}
-
-/*.member-title {
-    position: relative;
-    float: left;
-    width: 25%
-}*/
-
-/*.member-compant {
-    position: relative;
-    float: right;
-    width: 25%
-}*/
-
-.member-phone, .member-company {
-    position: relative;
-    float: right;
-    width: 25%
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding: 20px 0;
 }
 
 footer {
@@ -431,4 +408,8 @@ body {
 
 .light-orange {
     color: #FFCC6F;
+}
+
+.blue {
+    color: #219ab3;
 }
