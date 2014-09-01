@@ -369,34 +369,6 @@ li {
     text-align: left;
 }
 
-.member-name, .member-title {
-    position: relative;
-    float: left;
-    width: 25%;
-}
-.member-name {
-    color: #219ab3;
-    padding: 0;
-}
-
-/*.member-title {
-    position: relative;
-    float: left;
-    width: 25%
-}*/
-
-/*.member-compant {
-    position: relative;
-    float: right;
-    width: 25%
-}*/
-
-.member-phone, .member-company {
-    position: relative;
-    float: right;
-    width: 25%
-}
-
 footer {
     padding: 50px 0;
 }
@@ -431,4 +403,8 @@ body {
 
 .light-orange {
     color: #FFCC6F;
+}
+
+.blue {
+    color: #219ab3;
 }
