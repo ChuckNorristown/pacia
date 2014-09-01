@@ -270,7 +270,7 @@ a:focus {
 
 .name {
     max-height: 500px;
-    overflow-x: scroll; 
+    overflow-x: scroll;
 }
 
 .content-section {
