@@ -265,6 +265,12 @@ a:focus {
 .members {
     margin-bottom: 35px;
     text-align: left;
+    vertical-align: center;
+}
+
+.name {
+    max-height: 500px;
+    overflow-x: scroll; 
 }
 
 .content-section {
