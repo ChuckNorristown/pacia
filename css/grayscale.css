@@ -341,8 +341,7 @@ a:focus {
     color: #219ab3;
     background-color: transparent;
     position: relative;
-    left: 7%;
-    margin-top: 5%;
+    left: 4%;
 }
 
 .btn-default:hover,
