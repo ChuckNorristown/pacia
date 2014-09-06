@@ -397,3 +397,7 @@ body {
 .row {
     padding: 20px 0 100px 0;
 }
+
+.pull-right {
+    margin-right: 4%;
+}
