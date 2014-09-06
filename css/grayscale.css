@@ -393,3 +393,7 @@ body {
 .blue {
     color: #219ab3;
 }
+
+.row {
+    padding: 20px 0 100px 0;
+}
