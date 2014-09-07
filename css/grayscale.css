@@ -400,6 +400,7 @@ body {
 
 .pull-right {
     margin-right: 4%;
+    top: 15px;
 }
 
 .patch {
