@@ -280,6 +280,8 @@ a:focus {
 
 .content-section {
     padding-top: 0;
+    max-height: 850px;
+
 }
 
 .download-section {
