@@ -401,3 +401,10 @@ body {
 .pull-right {
     margin-right: 4%;
 }
+
+.patch {
+    position: relative;
+    float: right;
+    bottom: 17px;
+    right: 15px;
+}
