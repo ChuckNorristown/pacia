@@ -344,6 +344,7 @@ a:focus {
     background-color: transparent;
     position: relative;
     left: 4%;
+    margin-top: 50px;
 }
 
 .btn-default:hover,
