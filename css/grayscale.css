@@ -166,6 +166,10 @@ a:focus {
     font-size: 18px;
 }
 
+.intro-text {
+    line-height: 5px;
+}
+
 .intro .intro-body .small-intro-text {
     font-size: 14px;
     font-style: italic;
