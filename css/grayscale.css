@@ -266,6 +266,14 @@ a:focus {
     }
 }
 
+.about-section {
+    margin-top: 8%;
+}
+
+.application-section {
+    padding-top: 8%;
+}
+
 .members {
     margin-bottom: 35px;
     text-align: left;
@@ -284,7 +292,7 @@ a:focus {
 
 .content-section {
     padding-top: 0;
-    max-height: 850px;
+    height: 850px;
 
 }
 
