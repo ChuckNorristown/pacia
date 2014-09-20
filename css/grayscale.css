@@ -370,6 +370,10 @@ a:focus {
     margin-top: 50px;
 }
 
+.btn-default.login {
+    margin: 0;
+}
+
 .btn-default:hover,
 .btn-default:focus {
     border: 1px solid #219ab3;
