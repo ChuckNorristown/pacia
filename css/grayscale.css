@@ -182,7 +182,7 @@ a:focus {
 }
 
 .login-header {
-    margin-left: 35.4%;
+    margin-left: 34.4%;
 }
 
 .pacia-text {
@@ -376,7 +376,8 @@ a:focus {
 
 .btn-default.login {
     margin: 0;
-    width: 92%;
+    width: 100%;
+    left: 0;
 }
 
 .btn-default:hover,
