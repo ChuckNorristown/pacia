@@ -29,21 +29,22 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script language="JavaScript" type="text/javascript">
+<script language="JavaScript" type="text/javascript">
 
 function TheLogin() {
 
 var password = 'pepper';
 
-if (this.document.login.pass.value == password) {
+if (this.document.login.password.value == password) {
   top.location.href="index.html";
 }
-else {
-  location.href="incorrect.html";
-  }
+// else {
+//   location.href="incorrect.html";
+//   }
 }
 
 </script>
+
 
 
 </head>
@@ -51,13 +52,16 @@ else {
 <body id="login">
 
 
-<center>
+<!-- <center>
 Enter your password:<br>
 <form name="login" style="margin: 0px">
+
 <INPUT TYPE="text" NAME="pass" size="17" onKeyDown="if(event.keyCode==13) event.keyCode=9;" style="width: 152px; margin: 5px;"><br>
+
 <input type="button" value="Click to Login" style="width : 150px; margin: 3px" onClick="TheLogin(this.form)">
+
 </form>
-</center>
+</center> -->
 
 
 
@@ -77,9 +81,13 @@ Enter your password:<br>
                   <input class="form-control" placeholder="E-mail" name="email" type="text" required>
               </div>
               <div class="form-group">
-                <input class="form-control" placeholder="Password" name="password" type="password" value="" required>
+
+                <input class="form-control" placeholder="Password" name="password" type="text" value="" required>
+
               </div>
-              <input class="btn login btn-default btn-lg" type="submit" value="Login">
+
+                <input class="btn login btn-default btn-lg" type="button" value="Login" onClick="TheLogin(this.form)">
+
             </fieldset>
               </form>
           </div>
