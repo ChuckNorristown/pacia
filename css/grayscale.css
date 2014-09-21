@@ -12,6 +12,10 @@ body {
     background-color: #000;
 }
 
+body#login {
+    padding-top: 15%;
+}
+
 .container {
     width: 100%;
 }
@@ -175,6 +179,16 @@ a:focus {
     font-style: italic;
     position: relative;
     margin-top: -5%;
+}
+
+.login-header {
+    margin-left: 34.4%;
+}
+
+.login-heading {
+    color: #ffcc6f;
+    position: relative;
+    margin-bottom: 0px;
 }
 
 .pacia-text {
@@ -366,6 +380,12 @@ a:focus {
     margin-top: 50px;
 }
 
+.btn-default.login {
+    margin: 0;
+    width: 100%;
+    left: 0;
+}
+
 .btn-default:hover,
 .btn-default:focus {
     border: 1px solid #219ab3;
@@ -409,7 +429,7 @@ body {
 }
 
 .light-orange {
-    color: #FFCC6F;
+    color: #ffcc6f;
 }
 
 .blue {
@@ -430,4 +450,14 @@ body {
     float: right;
     bottom: 17px;
     right: 15px;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
 }

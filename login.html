@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Login</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrapValidator.css" rel="stylesheet">
+    <link href="css/bootstrapValidator.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script language="JavaScript" type="text/javascript">
+
+function TheLogin() {
+
+var password = 'pacia1986';
+
+if (this.document.login.password.value == password) {
+  top.location.href="index.html";
+}
+// else {
+//   location.href="incorrect.html";
+//   }
+}
+
+</script>
+
+
+
+</head>
+
+<body id="login">
+
+
+<!-- <center>
+Enter your password:<br>
+<form name="login" style="margin: 0px">
+
+<INPUT TYPE="text" NAME="pass" size="17" onKeyDown="if(event.keyCode==13) event.keyCode=9;" style="width: 152px; margin: 5px;"><br>
+
+<input type="button" value="Click to Login" style="width : 150px; margin: 3px" onClick="TheLogin(this.form)">
+
+</form>
+</center> -->
+
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="login-header">
+          <h1 class="login-heading">P&thinsp;A&thinsp;C&thinsp;I&thinsp;A</h1>
+          <p class="small-login-text">An Association of Professional Investigators</p>
+      </div>
+    <div class="col-md-4 col-md-offset-4">
+      <form name="login">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Please sign in</h3>
+        </div>
+          <div class="panel-body">
+            <form accept-charset="UTF-8" role="form">
+                    <fieldset>
+                <div class="form-group">
+                  <input class="form-control" placeholder="E-mail" name="email" type="text" required>
+              </div>
+              <div class="form-group">
+
+                <input class="form-control" placeholder="Password" name="password" type="text" value="" required>
+
+              </div>
+
+                <input class="btn login btn-default btn-lg" type="button" value="Sign In" onClick="TheLogin(this.form)">
+
+            </fieldset>
+              </form>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrapValidator.js"></script>
+    <script src="js/bootstrapValidator.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<!--     // <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
