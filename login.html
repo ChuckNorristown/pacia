@@ -40,9 +40,17 @@ var password = 'pacia1986';
 if (this.document.login.password.value == password) {
   top.location.href="index.html";
 }
-// else {
-//   location.href="incorrect.html";
-//   }
+if (this.document.login.email.value == "") {
+   alert("Please enter an e-mail address.");
+   this.document.email.focus();
+   return false;
+  }
+if (this.document.login.password.value == "") {
+   alert("Please enter your password.");
+   this.document.password.focus();
+   return false;
+  }
+
 }
 
 </script>
@@ -84,11 +92,11 @@ Enter your password:<br>
             <form accept-charset="UTF-8" role="form">
                     <fieldset>
                 <div class="form-group">
-                  <input class="form-control" placeholder="E-mail" name="email" type="text" required>
+                  <input class="form-control" placeholder="E-mail" name="email" type="text">
               </div>
               <div class="form-group">
 
-                <input class="form-control" placeholder="Password" name="password" type="text" value="" required>
+                <input class="form-control" placeholder="Password" name="password" type="text" value="">
 
               </div>
 
