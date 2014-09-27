@@ -362,10 +362,9 @@ a:focus {
 }
 
 .btn-more {
-    position: relative;
-    float: right;   
-    left: 24%;
-    bottom: 100px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
