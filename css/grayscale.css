@@ -298,9 +298,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 0;
+    padding-top: 6%;
     height: 850px;
-
 }
 
 /*#map {
@@ -311,7 +310,6 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        margin-top: 50px;
     }
 
     #map {
