@@ -287,20 +287,6 @@ a:focus {
     }
 }
 
-.about-section {
-    margin-top: 8%;
-}
-
-.contact-section {
-    padding-top: 8%;
-}
-
-.members {
-    margin-bottom: 35px;
-    text-align: left;
-    vertical-align: center;
-}
-
 .name {
     max-height: 500px;
     overflow-x: scroll;
@@ -312,21 +298,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 0;
-    height: 850px;
-
-}
-
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    padding-top: 6%;
+    height: 900px;
 }
 
 /*#map {
@@ -337,7 +310,6 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        margin-top: 50px;
     }
 
     #map {
@@ -352,6 +324,12 @@ a:focus {
     padding: 0;
 }
 
+.move{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -362,10 +340,9 @@ a:focus {
 }
 
 .btn-more {
-    position: relative;
-    float: right;   
-    left: 24%;
-    bottom: 100px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
