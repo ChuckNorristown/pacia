@@ -324,6 +324,12 @@ a:focus {
     padding: 0;
 }
 
+.move{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
 .btn {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
