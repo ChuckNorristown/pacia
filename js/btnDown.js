@@ -6,7 +6,7 @@ $(function() {
             if ($window.scrollTop() < pos) {
                 $('html, body').animate({
                     scrollTop: pos
-                }, 1000);
+                }, 1500, 'easeInOutExpo');
                 return false;
             }
         });
