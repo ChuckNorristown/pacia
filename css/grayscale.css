@@ -419,6 +419,10 @@ body {
     margin: 0;
 }
 
+.minutes-info {
+    text-align: left;
+}
+
 .light-orange {
     color: #ffcc6f;
 }
