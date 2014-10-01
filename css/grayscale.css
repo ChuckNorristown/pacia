@@ -413,6 +413,12 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+.minutes-header {
+    position: relative;
+    right: 460px;
+    margin: 0;
+}
+
 .light-orange {
     color: #ffcc6f;
 }
