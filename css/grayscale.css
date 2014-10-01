@@ -150,6 +150,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    z-index: 1;
+    position: relative;
     background: url(../img/philadelphia_Skyline.png) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
