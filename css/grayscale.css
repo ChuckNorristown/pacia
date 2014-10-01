@@ -358,13 +358,6 @@ a:focus {
     margin-top: 33px;
 }
 
-.btn-minutes {
-    border: 1px solid #219ab3;
-    color: #219ab3;
-    background-color: transparent;
-    position: relative;
-}
-
 .btn-default.login {
     margin: 0;
     width: 100%;
