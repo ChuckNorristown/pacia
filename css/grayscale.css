@@ -39,7 +39,7 @@ h6 {
 }
 
 h2 {
-    margin-top: 100px;
+    margin-top: 85px;
 }
 
 p {
@@ -439,6 +439,16 @@ body {
     margin-right: 4%;
     top: 15px;
 }
+
+.dues-info {
+    text-align: left;
+    font-size: 16px;
+}
+    li.dues-li:before {
+      content:'\2022';
+      color: #219ab3;
+      margin: 0 10px 0 -17px;
+  }
 
 .patch {
     position: relative;
