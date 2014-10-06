@@ -450,10 +450,9 @@ body {
       margin: 0 10px 0 -17px;
   }
 
-.patch {
+.home {
     position: relative;
     float: right;
-    bottom: 47px;
     right: 10px;
 }
 
