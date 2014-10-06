@@ -454,6 +454,14 @@ body {
     position: relative;
     float: right;
     right: 10px;
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.home:hover {
+  color: #219ab3;
 }
 
 .panel-default {
