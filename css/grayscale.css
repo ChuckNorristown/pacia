@@ -311,11 +311,23 @@ a:focus {
 }*/
 
 @media(min-width:767px) {
-    .content-section {
-    }
-
     #map {
         margin-top: 50px;
+    }
+}
+
+@media(min-width:420px) {
+    .intro-text {
+        line-height: 20px;
+    }
+    .btn-more {
+        display: none;
+    }
+    .content-section {
+        height: auto;
+    }
+    .btn-default {
+        margin: 0 0 30px 0;
     }
 }
 
