@@ -316,7 +316,7 @@ a:focus {
     }
 }
 
-@media(min-width:420px) {
+@media(min-width:380px) and (max-width: 1199px) {
     .intro-text {
         line-height: 20px;
     }
