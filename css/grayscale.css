@@ -328,11 +328,16 @@ a:focus {
     }
     .btn-default {
         margin: 0 0 30px 0;
+        width: 100%;
     }
     .login-header {
         margin-left: -25px;
         text-align: center;
         left: 10px;
+        position: relative;
+    }
+    .member-name {
+        right: 17px;
         position: relative;
     }
 }
