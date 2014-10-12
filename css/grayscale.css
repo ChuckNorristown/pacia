@@ -341,10 +341,9 @@ a:focus {
     }
 }
 
-@media(max-width:480px) and (max-width: 1199px) {
+@media(max-width: 540px) and (max-width: 1199px) {
     .btn-default {
         width: 100%;
-        left: 14px;
     }
 }
 
