@@ -341,9 +341,17 @@ a:focus {
     }
 }
 
-@media(max-width: 540px) and (max-width: 1199px) {
+@media(min-width: 320px) and (max-width: 720px) {
     .btn-default {
         width: 100%;
+    }
+    #break {
+    top: 75px;
+    left: 15px; 
+    position: absolute;
+    }
+    .pull-right {
+        left: 20px;
     }
 }
 
