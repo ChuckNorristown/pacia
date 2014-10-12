@@ -463,6 +463,13 @@ body {
     color: #fff;
 }
 
+.white:hover {
+    color: #219ab3;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
 .blue {
     color: #219ab3;
 }
