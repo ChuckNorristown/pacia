@@ -328,7 +328,6 @@ a:focus {
     }
     .btn-default {
         margin: 0 0 30px 0;
-        width: 100%;
     }
     .login-header {
         margin-left: -25px;
@@ -339,6 +338,13 @@ a:focus {
     .member-name {
         right: 17px;
         position: relative;
+    }
+}
+
+@media(max-width:480px) and (max-width: 1199px) {
+    .btn-default {
+        width: 100%;
+        left: 14px;
     }
 }
 
