@@ -470,6 +470,13 @@ body {
     transition: all .3s ease-in-out;
 }
 
+.top:hover {
+    color: #ffcc6f;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
 .blue {
     color: #219ab3;
 }
