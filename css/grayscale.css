@@ -543,6 +543,9 @@ body {
   width: 200%; 
   height: 200%;
   opacity: 0.1;
+    -moz-transform:scale(0.70);
+    -webkit-transform:scale(0.70);
+    transform:scale(0.70);
 }
 #patch img {
   position: absolute; 
