@@ -395,6 +395,7 @@ a:focus {
     background-color: transparent;
     position: relative;
     margin-top: 33px;
+    z-index: 10;
 }
 
 .btn-default.login {
