@@ -350,9 +350,6 @@ a:focus {
     left: 15px; 
     position: absolute;
     }
-    .pull-right {
-        left: 20px;
-    }
 }
 
 .meeting-info {
@@ -485,8 +482,7 @@ body {
     padding: 20px 0 100px 0;
 }
 
-.pull-right {
-    margin-right: 4%;
+.pull-left {
     top: 15px;
 }
 
