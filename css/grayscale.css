@@ -316,6 +316,12 @@ a:focus {
     }
 }
 
+@media(max-width:600px) {
+    #patch img {
+        min-width: 90%
+    }
+}
+
 @media(min-width:320px) and (max-width: 1199px) {
     .intro-text {
         line-height: 20px;
