@@ -299,6 +299,14 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.li-scroll {
+    right: 860px;
+    bottom: 10px;
+    border: none;
+    position: absolute;
+
+}
+
 .content-section {
     padding-top: 3%;
     height: 900px;
