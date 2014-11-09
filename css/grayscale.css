@@ -508,6 +508,10 @@ body {
     font-size: 16px;
 }
 
+ul.sites {
+    padding: 0;
+}
+
     li.dues-li.sites:before {
       content:'\2022';
       color: #219ab3;
