@@ -503,6 +503,10 @@ body {
     font-size: 16px;
 }
 
+#related {
+    height: 775px;
+}
+
 .related-sites {
     text-align: center;
     font-size: 16px;
