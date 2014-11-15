@@ -502,7 +502,21 @@ body {
     text-align: left;
     font-size: 16px;
 }
-    li.dues-li:before {
+
+#related {
+    height: 775px;
+}
+
+.related-sites {
+    text-align: center;
+    font-size: 16px;
+}
+
+ul.sites {
+    padding: 0;
+}
+
+    li.dues-li.sites:before {
       content:'\2022';
       color: #219ab3;
       margin: 0 10px 0 -17px;
