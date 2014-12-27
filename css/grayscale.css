@@ -505,6 +505,9 @@ body {
 
 #related {
     height: 775px;
+    z-index: 2;
+    position: relative;
+    background-color: #000;
 }
 
 .related-sites {
