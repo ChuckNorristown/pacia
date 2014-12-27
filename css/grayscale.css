@@ -505,7 +505,18 @@ body {
 
 #related {
     height: 775px;
+    z-index: 2;
+    position: relative;
+    background-color: #000;
 }
+
+/*#up {
+    background-color: #000;
+    text-align: center;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}*/
 
 .related-sites {
     text-align: center;
