@@ -456,8 +456,8 @@ body {
 
 .minutes-header {
     position: relative;
-    right: 460px;
     margin: 0;
+    text-align: left;
 }
 
 .minutes-info {
