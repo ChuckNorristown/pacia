@@ -363,8 +363,13 @@ a:focus {
 }
 
 @media(max-width: 320px) {
-    .intro, #about, .dues-info, #related, nav {
+    .intro, #about, .dues-info, #related, #patch, #min-button, nav {
         display: none;
+    }
+    .no-scroll {
+        position: relative;
+        float: right;
+        left: 25px;
     }
 }
 
