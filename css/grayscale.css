@@ -362,6 +362,12 @@ a:focus {
     }
 }
 
+@media(max-width: 320px) {
+    .intro, #about, .dues-info, #related, nav {
+        display: none;
+    }
+}
+
 .meeting-info {
     font-size: 20px;
     line-height: 2;
