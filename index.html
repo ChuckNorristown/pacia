@@ -9,12 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PACIA Org Home</title>
+    <title>PACIA Org Login</title>
 
+    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrapValidator.css" rel="stylesheet">
+    <link href="css/bootstrapValidator.min.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -25,245 +30,63 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll top" href="#page-top">
-                    <span class="light">Top</a>
+  <body id="login">
+    <div class="container">
+        <div class="row">
+          <div class="login-header">
+              <h1 class="login-heading">P&thinsp;A&thinsp;C&thinsp;I&thinsp;A</h1>
+              <p class="small-login-text">An Association of Professional Investigators</p>
+          </div>
+        <div class="col-md-4 col-md-offset-4">
+          <form name="login">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Please sign in</h3>
             </div>
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#officers">Officers &amp; Board</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#members">Members</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#dues">Dues &amp; Entry</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#notes">Announcements</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#meeting">Meeting Info</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#related">Related Info</a>
-                    </li>
-                </ul>
-            </div>
+              <div class="panel-body">
+                <form accept-charset="UTF-8" role="form">
+                        <fieldset>
+                    <div class="form-group">
+                      <input class="form-control" placeholder="E-mail" name="email" type="text" autocomplete="off">
+                  </div>
+                  <div class="form-group">
+
+                    <input class="form-control" placeholder="Password" name="password" type="password" autocomplete="off" value="">
+
+                  </div>
+
+                    <input class="btn login btn-default btn-lg" type="button" value="Sign In" onClick="TheLogin(this.form)">
+
+                </fieldset>
+                  </form>
+              </div>
+            </form>
+          </div>
+          <div class="apply">
+            <p class="apply-text"><sup>*</sup>If you would like to apply for a membership to PACIA, please fill out an application form</p>
+              <form method="link" action="application.html">
+                <input type="submit" class="btn btn-default btn-lg" value="APPLY">
+            </form>
+          </div>
         </div>
-    </nav>
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">P&thinsp;A&thinsp;C&thinsp;I&thinsp;A</h1>
-                        <p class="small-intro-text">An Association of Professional Investigators</p>
-                        <p class="intro-text">Pennsylvania Auto Crime Investigators Association</p>
-                        <p class="intro-text">Established in 1986</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section id="about" class="container content-section text-center">
-        <div class="about-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="light-orange">P&thinsp;A&thinsp;C&thinsp;I&thinsp;A</h2>
-                    <p class="pacia-text">Pennsylvania Auto Crime Investigators Association</p></br>
-                    <p>P&thinsp;A&thinsp;C&thinsp;I&thinsp;A, as it is commonly known, is an organization of professional investigators established in 1986 to foster education and cooperation between the public and private sector in the investigation of auto related crimes including auto theft and insurance fraud.</p>
-                    <p>The membership of the association is comprised of law enforcement and insurance investigators who are actively involved in the investigation of auto theft and related crimes. The association is incorporated as a non-profit organization in Pennsylvania.</p>
-                    <p>Membership in the organization is made by the recommendation of one of the membership and approval of the board of directors.</p>
-                    <p>PACIA  also conducts  training seminars in the area of auto theft and vehicle fraud topics for the Delaware Valley law enforcement community.  The announcement of these seminars will be posted on this web site.</p>
-                    <div class="next">
-                        <a class="btn-more btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </di>
-        </div>
-    </section>
-    <section id="officers" class="content-section text-center">
-        <div class="officers-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="light-orange">OFFICERS &amp; BOARD OF DIRECTORS 2015</h2>
-                    <div class="name">
-                        <ul class="member-name">
-                            <li>Deb Noone &nbsp;//&nbsp; President &nbsp;//&nbsp; Nationwide Insurance &nbsp;//&nbsp; <a href="tel:856669758">856.669.758</a></li>
-                            <li>John Kelly &nbsp;//&nbsp; Vice President &nbsp;//&nbsp; <a href="tel:2159198019">215.919.8019</a></li>
-                            <li>Don Murtha &nbsp;//&nbsp; Treasurer &nbsp;//&nbsp; Philadelphia District Attorney &nbsp;//&nbsp; <a href="tel:2153177768">215.317.7768</a></li>
-                            <li>Samuel Dunlap &nbsp;//&nbsp; Administrative Secretary &nbsp;//&nbsp; Philadelphia PD &nbsp;//&nbsp; <a href="tel:2156859130">215.685.9130</a></li>
-                            <li>Jim Riehman &nbsp;//&nbsp; Recording Secretary &nbsp;//&nbsp; USAA Insurance &nbsp;//&nbsp; <a href="tel:6108505540">610.850.5540</a></li>
-                            <li>Vic Tunis &nbsp;//&nbsp; Board Member</li>
-                            <li>Joe Carlin &nbsp;//&nbsp; Board Member</li>
-                            <li>Jack Quinn &nbsp;//&nbsp; Board Member &nbsp;//&nbsp; NICB</li>
-                            <li>Sal Quinn &nbsp;//&nbsp; Board Member &nbsp;//&nbsp;Donegal Insurance &nbsp;//&nbsp; <a href="tel:7174261931">717.426.1931</a></li>
-                            <li>Mike Affatato &nbsp;//&nbsp; Board Member &nbsp;//&nbsp; Allstate Insurance &nbsp;//&nbsp; <a href="tel:2156868749">215.686.8749</a></li>
-                        </ul>
-                    </div>
-                    <div class="li-scroll btn-circle page-scroll">
-                        <i class="fa fa-angle-down"></i>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-        <section id="members" class="content-section text-center">
-        <div class="members-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="light-orange">MEMBERS</h2>
-                    <div class="name">
-                        <ul class="member-name">
-                            <li>Douglas Babin &nbsp;//&nbsp; State Farm Ins.</li>
-                            <li>Greg Boehm &nbsp;//&nbsp; Allstate Ins &nbsp;//&nbsp; <a href="tel:5555555555">215.293.8659</a></li>
-                            <li>Sasha Brown &nbsp;//&nbsp; Liberty Mutual Ins &nbsp;//&nbsp; <a href="tel:5555555555">856.566.8080</a></li>
-                            <li>Stanley Brown &nbsp;//&nbsp; Phila District Attorney &nbsp;//&nbsp; <a href="tel:5555555555">215.686.9940</a></li>
-                            <li>Thomas Burke &nbsp;//&nbsp; Erie Insurance &nbsp;//&nbsp; <a href="tel:5555555555">215.947.1100</a></li>
-                            <li id="temp"><span class="light-orange">*Further Members Listings Pending*</span></li>
-<!--                             <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li>
-                            <li>Name &nbsp;//&nbsp; Position &nbsp;//&nbsp; Company &nbsp;//&nbsp; <a href="tel:5555555555">555.555.5555</a></li> -->
-                        </ul>
-                    </div>
-                    <div class="li-scroll btn-circle page-scroll">
-                        <i class="fa fa-angle-down"></i>
-                    </div>   
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="dues" class="content-section text-center">
-        <div class="contact-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="light-orange">DUES &amp; ENTRY</h2>
-                    <div class="application">
-                        <p>All dues and applications received will be for membership of the current year.</p><br/>
-                        <p class="pacia-text"><span class="light-orange">Annual Dues:&nbsp; Insurance &amp; Non LE - $20.00 &nbsp;//&nbsp; Law Enforcement - $20.00</span></p>
-                        <ul class="dues-info">
-                            <li class="dues-li">You may pay the association by check, money order or cash. We do not have the ability to accept payment by credit card.</li><br/>
-                            <li class="dues-li">Cash payment can be made at the monthly meetings at which time a receipt will be provided to you for reimbursement from your employer.</li><br/>
-                            <li class="dues-li">Payment made by check should be made to PACIA. Your check should accompany your renewal application and your check will be your receipt or you may request a receipt to provide to your employer at the PACIA Meeting from the Treasurer.</li><br/>
-                            <li class="dues-li">Membership dues for 2015 are being accepted until April 30, 2015. In order to have your name included into the directory of members, which will be posted on this website, you will need to have your dues paid by that date. You may also obtain a written copy of the directory at the monthly meetings. If you wish to obtain a written copy you should contact the Administrative Secretary prior to meeting date.</li><br/>
-                            <li class="dues-li">All questions regarding membership applications and qualifications should be directed to the Administrative Secretary. See the<a class="page-scroll" href="#officers"> Officers and Board of Directors </a> section for contact information.</li>
-                        </ul>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-        <section id="notes" class="content-section text-center">
-        <div class="contact-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="light-orange"><span class="no-scroll">Announcements</span></h2>
-                    <div class="application">
-                        <ul class="dues-info">
-                            <li class="dues-li">The Pennsylvania Auto Crimes Investigators Association is going to conduct an Auto Theft/Insurance Fraud seminar in 2016 for Law Enforcement and Insurance SIU Personel.</li><br/>
-                            <li class="dues-li">The Seminar will be sponsored by the National Insurance Crime Bureau and the Pennsylvania Auto Theft Prevention Authority.</li><br/>
-                            <li class="dues-li">The exact date, time, and location is to be announced sometime in late spring of 2015.</li><br/><br/>
-                        </ul>
-                        <p class="pacia-text contact">Please contact John Kelly, PACIA Member @ <a href="mailto:johnkelly@pacia.org?subject=PACIA">JohnKelly@pacia.org</a> to have information posted. The information should be related to the association, and to members activities.</p>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="meeting" class="container content-section text-center">
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2 class="light-orange">Meeting Information</h2>
-                <ul class="meeting-info">
-                    <li>NEXT SCHEDULED PACIA MEETING:</li>
-                    <li>Philadelphia Police &nbsp;//&nbsp; 8th District</li>
-                    <li>Friday &nbsp;2.6.2015 &thinsp;@&thinsp; 10:00am</li>
-                    <li>TOPIC&thinsp;: TBA</li>
-                </ul>
-                <div id="min-button">
-                    <form method="link" action="minutes.html">
-                        <input type="submit" class="btn btn-default btn-lg" value="Meeting Minutes">
-                    </form>
-                </div>
-            <div id="map">
-                <iframe width="100%" height="250" frameborder="1px" style="border:0" style="border-radius:5px"
-                    src="https://www.google.com/maps/embed/v1/place?q=Philadelphia+Police,+8th+District,+Red+Lion+&key=AIzaSyARe5KwRa-W1zaBEDDAXP0GKndGucvwtUI"></iframe>
-            </div>
-        </div>
-    </section>
-    <section id="related" class="content-section text-center">
-        <div class="contact-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="light-orange">Related Information</h2>
-                    <div class="related-sites">
-                        <ul class="sites">
-                            <li class="dues-li"><a href="http://www.nicb.org" target="_blank">National Insurance Crime Bureau</font></a></li><br/>
-                            <li class="dues-li"><a href="http://www.iasiu.com" target="_blank">International Association of Special Investigation Units</a></li><br/>
-                            <li class="dues-li"><a href="http://www.iaati.org" target="_blank">International Association of Auto Theft Investigators</a></li><br/>
-                            <li class="dues-li"><a href="http://www.neiaati.org" target="_blank">Northeast Association of Auto Theft Investigators</a></li><br/>
-                            <li class="dues-li"><a href="http://www.firearson.com" target="_blank">International Association of Arson Investigators</a></li><br/>
-                            <li class="dues-li"><a href="https://claimsearch.iso.com" target="_blank">ISO Claimsearch <span class="white">&nbsp;//&nbsp; Members Only</span></a></li><br/>
-                            <li class="dues-li"><a href="http://www.refdesk.com" target="_blank">Ref Desk Web Site <span class="white">&nbsp;//&nbsp; Comprehensive Information Web Site</span></a></li><br/>
-                            <li class="dues-li"><a href="http://courts.phila.gov/" target="_blank">Philadelphia Courts Web Site <span class="white">&nbsp;//&nbsp; Civil Docket Informtion and more</span></a></li><br/>
-                            <li class="dues-li"><a href="http://www.phila.gov/records/PoliceFire/Traffic_Accident_Reports.html" target="_blank">Philadelphia Police Accident Reports Information Update to obtain reports under new guidlines.</a></li><br/>
-                            <li class="dues-li"><a href="http://brtweb.phila.gov/" target="_blank">Philadelphia City Web Page <span class="white">&nbsp;//&nbsp; Property Assessment &amp; Property Ownership</span></a></li><br/>
-                            <li class="dues-li"><a href="http://www.dos.state.pa.us/dos/site/default.asp" target="_blank">Commonwealth of Pennsylvania Enterprise Portal Web Site Listings</a></li><br/>
-                            <li class="dues-li"><a href="http://www.ujsportal.pacourts.us/default.aspx" target="_blank">Pennsylvania Criminal Court Web Portals <span class="white">&nbsp;//&nbsp; Criminal Records Lookup</span></a></li><br/>
-                        </ul>
-                    </div> 
-                </div>
-            </div>
-        </div>
-<!--     <div id="up">
-        <a href="#page-top" class="btn btn-circle page-scroll">
-            <i class="fa fa-angle-double-down animated"></i>
-        </a>
-    </div> -->
-    </section>
-    <div id="patch">
-        <img src="../grayscale/img/PACIA_White.png">
+      </div>
     </div>
-    
+
     <script src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-    <script src="js/btnDown.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<!--     // <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+
+    <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+    <script src="js/login.js"></script>
 
-</body>
-
+  </body>
 </html>
