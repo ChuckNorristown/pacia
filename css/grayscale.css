@@ -610,3 +610,10 @@ ul.sites {
     font-style: italic;
     font-size: large;
 }
+
+#special-size {
+    font-size: 11px;
+/*    letter-spacing: initial;
+*/    left: 15px;
+    position: relative;
+}
