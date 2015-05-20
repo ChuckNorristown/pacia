@@ -327,9 +327,6 @@ a:focus {
     .intro-text {
         line-height: 20px;
     }
-    .btn-more {
-        display: none;
-    }
     .content-section {
         height: auto;
     }
@@ -346,7 +343,7 @@ a:focus {
         right: 17px;
         position: relative;
     }
-    .li-scroll {
+    .li-scroll, #map, .btn-more, #related  {
         display: none;
     }
 }
