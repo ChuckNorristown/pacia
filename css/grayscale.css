@@ -201,7 +201,15 @@ a:focus {
 }
 
 .officers-section {
-    margin-top: 4%;
+    margin-top: 5%;
+}
+
+.announcements-section {
+    margin-top: 7%
+}
+
+.meeting-section {
+    margin-top: -1%;
 }
 
 @media(min-width:767px) {
