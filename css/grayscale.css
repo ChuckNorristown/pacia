@@ -323,7 +323,7 @@ a:focus {
     }
 }
 
-@media(min-width:320px) and (max-width: 1199px) {
+@media(min-width:375px) and (max-width: 1199px) {
     .intro-text {
         line-height: 20px;
     }
@@ -343,12 +343,12 @@ a:focus {
         right: 17px;
         position: relative;
     }
-    .li-scroll, #map, .btn-more, #related, #about  {
+    .li-scroll, #map, .btn-more, #about  {
         display: none;
     }
 }
 
-@media(min-width: 320px) and (max-width: 720px) {
+@media(min-width: 375px) and (max-width: 720px) {
     .btn-default {
         width: 100%;
     }
@@ -359,8 +359,8 @@ a:focus {
     }
 }
 
-@media(max-width: 320px) {
-    .intro, #about, .dues-info, #related, #patch, #min-button, nav {
+@media(max-width: 375px) {
+    .intro, #about, .dues-info, #patch, #min-button, nav {
         display: none;
     }
     .no-scroll {
