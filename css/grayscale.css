@@ -355,7 +355,7 @@ a:focus {
         right: 17px;
         position: relative;
     }
-    .li-scroll, #map, .btn-more, #about  {
+    .li-scroll, #map, .btn-more, #about, {
         display: none;
     }
 }
@@ -372,7 +372,7 @@ a:focus {
 }
 
 @media(max-width: 320px) {
-    #about, .dues-info, #patch, #min-button, nav {
+    #about, .dues-info, #patch, #min-button, nav, .mouse, .mouse-text {
         display: none;
     }
     .no-scroll {
