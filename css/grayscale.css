@@ -372,7 +372,7 @@ a:focus {
 }
 
 @media(max-width: 375px) {
-    .intro, #about, .dues-info, #patch, #min-button, nav {
+    #about, .dues-info, #patch, #min-button, nav {
         display: none;
     }
     .no-scroll {
