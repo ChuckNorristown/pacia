@@ -369,10 +369,20 @@ a:focus {
     left: 15px; 
     position: absolute;
     }
+    .btn-more {
+        display: none;
+    }
+}
+
+@media(min-width: 721px) {
+    .col-lg-8 {
+        padding-left: 107px;
+        padding-right: 107px;
+    }
 }
 
 @media(max-width: 320px) {
-    #about, .dues-info, #patch, #min-button, nav, .mouse, .mouse-text {
+    #about, .dues-info, #patch, #min-button, nav, .mouse, .mouse-text, {
         display: none;
     }
     .no-scroll {
