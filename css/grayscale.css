@@ -491,7 +491,7 @@ body {
   width: 3px;
   height: 7px;
   border-radius: 100%;
-  background: #93939e;
+  background: #fff;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
