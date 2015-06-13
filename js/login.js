@@ -4,7 +4,6 @@ function TheLogin() {
 var password = 'pacia1986';
 
 if (this.document.login.password.value == password) 
-  // top.location.href="home.html";
 if (this.document.login.email.value != "") {
   top.location.href="home.html";
 }
