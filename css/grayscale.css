@@ -373,7 +373,7 @@ a:focus {
     left: 15px; 
     position: absolute;
     }
-    .btn-more {
+    .btn-more, .btn {
         display: none;
     }
 }
